@@ -16,8 +16,8 @@ const locationsRouter = require("./routers/locationRouter");
 const chatRouter = require("./routers/chatRouter");
 
 // Create an express app
-app.use(cors());
 const app = express();
+app.use(cors());
 
 /**
  * Middlewares
