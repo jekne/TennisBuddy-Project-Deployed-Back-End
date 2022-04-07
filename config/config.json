@@ -1,0 +1,21 @@
+{
+  "development": {
+    "url": "postgres://ifgcqgfc:4e7sNGoqwl8rZddzrtdDam_V_SqHtFfD@jelani.db.elephantsql.com/ifgcqgfc"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": "0"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": "0"
+  }
+}
